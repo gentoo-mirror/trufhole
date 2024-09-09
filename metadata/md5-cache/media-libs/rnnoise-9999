@@ -1,0 +1,9 @@
+DEFINED_PHASES=configure unpack
+DESCRIPTION=Recurrent neural network for audio noise reduction
+EAPI=7
+HOMEPAGE=https://jmvalin.ca/demo/rnnoise/
+KEYWORDS=~amd64 ~x86
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.xiph.org/xiph/rnnoise/-/archive/master/rnnoise-master.tar.gz -> rnnoise.tar.gz
+_md5_=16e9ba1c50d2576d2a3a6c48359a6edf
