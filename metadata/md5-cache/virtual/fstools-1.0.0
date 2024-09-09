@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for useful filesystem tools
+EAPI=8
+KEYWORDS=amd64 ~amd64 ~arm
+RDEPEND=sys-fs/btrfs-progs sys-fs/dosfstools sys-fs/jfsutils sys-fs/ntfs3g sys-fs/reiserfsprogs sys-fs/xfsprogs sys-fs/e2fsprogs net-fs/sshfs net-fs/samba app-misc/binwalk sys-fs/mtd-utils
+SLOT=0
+_md5_=b88a14fecda66aa0d0c85716c6b0f001

@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for useful filesystem tools
+EAPI=8
+IUSE=+recovery
+KEYWORDS=amd64 ~amd64 ~arm
+RDEPEND=sys-fs/btrfs-progs sys-fs/dosfstools sys-fs/jfsutils sys-fs/ntfs3g sys-fs/reiserfsprogs sys-fs/xfsprogs sys-fs/e2fsprogs net-fs/sshfs net-fs/samba sys-fs/lvm2 net-fs/nfs-utils sys-fs/mtd-utils sys-fs/f2fs-tools sys-fs/udftools sys-fs/exfatprogs recovery ? ( app-forensics/foremost sys-fs/ext4magic sys-fs/safecopy sys-fs/extundelete )
+SLOT=0
+_md5_=31687306e4794249e326d02bb6fefc52

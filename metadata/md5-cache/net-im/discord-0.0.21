@@ -8,5 +8,5 @@ LICENSE=all-rights-reserved
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://dl.discordapp.net/apps/linux/0.0.21/discord-0.0.21.tar.gz -> discord-0.0.21.tar.gz
-_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d
 _md5_=65f4d7ce488c22e733a3291492df7504

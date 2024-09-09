@@ -1,0 +1,9 @@
+DEFINED_PHASES=configure install unpack
+DEPEND=sys-apps/openrc
+DESCRIPTION=Basic openrc custom init script and environment modifications which add extra functionality and management for screen sessions
+EAPI=8
+HOMEPAGE=https://trufhole/rootscreen
+KEYWORDS=amd64 ~amd64
+RDEPEND=app-misc/screen app-shells/bash sys-apps/openrc
+SLOT=0
+_md5_=af9deea518e8a97731eab9fda55220b7

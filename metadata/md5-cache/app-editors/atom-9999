@@ -1,0 +1,15 @@
+BDEPEND=>=net-libs/nodejs-12.16[npm] >=dev-lang/python-3 dev-vcs/git sys-apps/lsb-release x11-libs/libXScrnSaver app-crypt/libsecret sys-auth/polkit x11-themes/hicolor-icon-theme x11-misc/xdg-utils >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=net-libs/nodejs-12.16[npm] >=dev-lang/python-3 dev-vcs/git sys-apps/lsb-release x11-libs/libXScrnSaver app-crypt/libsecret sys-auth/polkit x11-themes/hicolor-icon-theme x11-misc/xdg-utils
+DESCRIPTION=A hackable text editor for the 21st Century
+EAPI=7
+HOMEPAGE=https://atom.io
+INHERIT=git-r3 xdg-utils
+KEYWORDS=-*
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=>=net-libs/nodejs-12.16[npm] >=dev-lang/python-3 dev-vcs/git sys-apps/lsb-release x11-libs/libXScrnSaver app-crypt/libsecret sys-auth/polkit x11-themes/hicolor-icon-theme x11-misc/xdg-utils
+RESTRICT=network-sandbox strip
+SLOT=0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	xdg-utils	ac0e315a3688929e34ac75b139e7349a
+_md5_=3521fdf3584832ef4f932fca41ec9d7f
