@@ -1,9 +1,0 @@
-DEFINED_PHASES=install postinst preinst prerm pretend
-DESCRIPTION=User for net-misc/wsdd
-EAPI=7
-INHERIT=acct-user
-KEYWORDS=~amd64 ~arm ~x86
-RDEPEND=acct-group/wsdd
-SLOT=0
-_eclasses_=user-info	9951b1a0e4f026d16c33a001fd2d5cdf	acct-user	fd6725fcc11ecffded6fe9228b8e3448
-_md5_=f6bae962ed23d593ee396f682b158070
