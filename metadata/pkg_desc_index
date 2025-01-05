@@ -1,0 +1,24 @@
+app-editors/vscode 1.93.0: Visual Studio Code - Open Source
+app-eselect/eselect-electron 0.3: Utility to select the default Electron slot
+app-laptop/framework-laptop-kmod 0_pre20240916: Kernel module to expose more Framework Laptop stuff
+app-office/libreoffice 24.2.7.2-r1: A full office productivity suite
+app-text/doxygen 1.12.0-r1: Documentation system for most programming languages
+dev-haskell/double-conversion 2.0.5.0-r1: Fast conversion between single and double precision floating point and text
+dev-haskell/text 2.0.2-r1 2.1.1-r1: An efficient packed Unicode text type
+dev-libs/newt 0.52.24: Redhat's Newt windowing toolkit development files
+dev-util/electron 30.5.0: Cross platform application development framework based on web technologies
+dev-util/sccache 0.8.1-r1: ccache/distcc like tool with support for rust and cloud storage
+gui-apps/tofi 0.9.1: Fast and simple dmenu/rofi replacement for wlroots-based Wayland compositors
+gui-apps/wlogout 1.1.1: A wayland based logout menu
+gui-apps/wlr-randr 0.2.0: xrandr clone for wlroots compositors
+gui-apps/wob 0.11: Lightweight overlay volume/backlight/progress/anything bar for Wayland
+media-gfx/prusaslicer 2.8.0-r1 2.8.1: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
+media-libs/rnnoise 9999: Recurrent neural network for audio noise reduction
+media-plugins/gst-plugins-v4l2 1.22.11: plugin for gstreamer
+media-sound/helvum 0.4.0: A GTK patchbay for pipewire
+net-libs/nodejs 22.8.0 22.10.0 22.12.0-r2: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-proxy/zaproxy 2.14.0 2.15.0: The OWASP Zed Attack Proxy for finding vulnerabilities in web applications
+sys-apps/fw-ectool 0.0.20221203: EC manipulation tool for the Framework Laptop
+sys-devel/dwz 0.15-r5: DWARF optimization and duplicate removal tool
+sys-power/tlp 1.7.0-r2: Optimize laptop battery life
+virtual/kotlin 2.0.10: Virtual for Kotlin compiler

@@ -1,0 +1,82 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-editors/vscode:api-proposals - Enable API proposals !WARNING! Enabling them might be forbidden by Microsoft licensing terms!
+app-editors/vscode:badge-providers - Allow various badge providers
+app-editors/vscode:build-online - Disable network-sandbox and open Pandora's box!
+app-editors/vscode:electron-19 - Build against electron-19 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-20 - Build against electron-20 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-21 - Build against electron-21 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-22 - Build against electron-22 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-23 - Build against electron-23 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-24 - Build against electron-24 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-25 - Build against electron-25 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-26 - Build against electron-26 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-27 - Build against electron-27 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-28 - Build against electron-28 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-29 - Build against electron-29 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-30 - Build against electron-30 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-31 - Build against electron-31 instead of the default one. Use at your own risk!
+app-editors/vscode:electron-32 - Build against electron-32 instead of the default one. Use at your own risk!
+app-editors/vscode:openvsx - Use Eclipse Open VSX instead of Visual Studio Marketplace
+app-editors/vscode:reh - Build Remote Extension Host
+app-editors/vscode:reh-web - Build Remote Extension Host for Web
+app-editors/vscode:substitute-urls - Even though telemetry is disabled by default in this ebuild, one might want to replace telemetry reporting urls with 0.0.0.0
+app-editors/vscode:temp-fix - Enable this if vscode does not build for you by default, this could help
+app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
+app-office/libreoffice:clang - Use Clang compiler instead of GCC
+app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
+app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
+app-office/libreoffice:mariadb - Prefer mariadb connector over mysql connector
+app-office/libreoffice:odk - Build the Office Development Kit
+app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
+app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
+app-text/doxygen:clang - support for llvm-core/clang assisted parsing
+app-text/doxygen:dot - allow to create dot graphs using media-gfx/graphviz
+app-text/doxygen:doxysearch - build doxyindexer and doxysearch.cgi
+dev-haskell/text:simdutf - use simdutf library
+dev-util/electron:bluetooth - Enable Bluetooth. Disabling bluetooth does break WebAuthn. Could also break something else. Improved patch is welcome.
+dev-util/electron:clang - Use Clang compiler instead of GCC
+dev-util/electron:debug - Enable DCHECK feature with severity configurable at runtime. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
+dev-util/electron:dev-dependencies - Keep Electron's devDependencies. This makes them available in node_modules. For example "asar" utility is one of them.
+dev-util/electron:gtk4 - Build with GTK4 headers
+dev-util/electron:hangouts - Enable support for Google Hangouts features such as screen sharing
+dev-util/electron:hevc - Enable HEVC decoding support. Should work with system-ffmpeg, but might require additional patching for the built-in one.
+dev-util/electron:js-type-check - Enable JavaScript type-checking for Chrome's web technology-based UI. Requires Java.
+dev-util/electron:libcxx - Use bundled C++ Standard Library (libc++)
+dev-util/electron:nvidia - Use libXNVCtrl library from x11-drivers/nvidia-drivers instead of the bundled one
+dev-util/electron:optimize-thinlto - Whether to enable ThinLTO optimizations. Turning ThinLTO optimizations on can substantially increase link time and binary size, but they generally also make binaries a fair bit faster.
+dev-util/electron:optimize-webui - Optimize parts of Chromium's UI written with web technologies (HTML/CSS/JS) for runtime performance purposes. This does more work at compile time for speed benefits at runtime.
+dev-util/electron:pax-kernel - Allow building on a PaX-enabled kernel
+dev-util/electron:pgo - Enable PGO. Requires bundled binary profile data in sources tree. Often requires masked/testing llvm.
+dev-util/electron:pic - Disable optimized assembly code that is not PIC friendly
+dev-util/electron:proprietary-codecs - Enable proprietary codecs like H.264, MP3
+dev-util/electron:screencast - Enable support for remote desktop and screen cast using media-video/pipewire
+dev-util/electron:suid - Build the SUID sandbox, which is only needed on CONFIG_USER_NS=n kernels
+dev-util/electron:system-abseil-cpp - Use the system dev-cpp/abseil-cpp instead of the bundled one
+dev-util/electron:system-av1 - Use the system media-libs/libaom and media-libs/dav1d instead of the bundled ones
+dev-util/electron:system-brotli - Use the system app-arch/brotli instead of the bundled one
+dev-util/electron:system-crc32c - Use the system dev-libs/crc32c instead of the bundled one
+dev-util/electron:system-double-conversion - Use the system dev-libs/double-conversion instead of the bundled one
+dev-util/electron:system-ffmpeg - Use the system media-video/ffmpeg instead of the bundled one
+dev-util/electron:system-harfbuzz - Use the system media-libs/harfbuzz instead of the bundled one
+dev-util/electron:system-icu - Use the system dev-libs/icu instead of the bundled one
+dev-util/electron:system-jsoncpp - Use the system dev-libs/jsoncpp instead of the bundled one
+dev-util/electron:system-libevent - Use the system dev-libs/libevent instead of the bundled one
+dev-util/electron:system-libusb - Use the system dev-libs/libusb instead of the bundled one
+dev-util/electron:system-libvpx - Use the system media-libs/libvpx instead of the bundled one
+dev-util/electron:system-openh264 - Use the system media-libs/openh264 instead of the bundled one. If disabled, it will restrict USE=bindist.
+dev-util/electron:system-openjpeg - Use the system-wide media-libs/openjpeg instead of the bundled one. OpenJPEG use are exclusively for Chromium's PDF viewer.
+dev-util/electron:system-png - Use system libpng instead of the bundled one
+dev-util/electron:system-re2 - Use the system-wide dev-libs/re2 instead of the bundled one
+dev-util/electron:system-snappy - Use the system-wide app-arch/snappy instead of the bundled one
+dev-util/electron:system-woff2 - Use the system media-libs/woff2 instead of the bundled one
+dev-util/electron:system-zstd - Use the system app-arch/zstd instead of the bundled one
+dev-util/electron:thinlto - Build with ThinLTO support. LTO (Link Time Optimization) achieves better runtime performance through whole-program analysis and cross-module optimization (highly recommended).
+dev-util/electron:ungoogled - Apply ungoogled-chromium modifications to chromium sources (electron sources are untouched be it better or worse). Not yet thoroughly tested! Might break electron apps or electron itself!
+gui-apps/wlogout:bash-completions - Enable Bash completions for this package
+gui-apps/wlogout:fish-completions - Enable Fish completions for this package
+gui-apps/wlogout:layershell - Enable layershell support
+gui-apps/wlogout:zsh-completions - Enable Zsh completions for this package
+net-proxy/zaproxy:plugins - Install plugins
