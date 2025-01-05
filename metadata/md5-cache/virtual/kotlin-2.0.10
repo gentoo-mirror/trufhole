@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Kotlin compiler
+EAPI=8
+KEYWORDS=~amd64
+RDEPEND=|| ( dev-lang/kotlin-bin:0/2.0.10 dev-lang/kotlin:0/2.0.10 )
+SLOT=0/2.0.10
+_md5_=1aa2d8855866b04b0755d854b73f5ad1
