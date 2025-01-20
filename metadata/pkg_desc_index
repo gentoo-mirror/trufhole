@@ -8,6 +8,7 @@ dev-haskell/text 2.0.2-r1 2.1.1-r1: An efficient packed Unicode text type
 dev-libs/newt 0.52.24: Redhat's Newt windowing toolkit development files
 dev-util/electron 30.5.0: Cross platform application development framework based on web technologies
 dev-util/sccache 0.8.1-r1: ccache/distcc like tool with support for rust and cloud storage
+gui-apps/shikane 1.0.1: A dynamic output configuration tool for wayland focusing on accuracy and determinism
 gui-apps/tofi 0.9.1: Fast and simple dmenu/rofi replacement for wlroots-based Wayland compositors
 gui-apps/wlogout 1.1.1: A wayland based logout menu
 gui-apps/wlr-randr 0.2.0: xrandr clone for wlroots compositors
