@@ -5,6 +5,7 @@ app-office/libreoffice 24.2.7.2-r1: A full office productivity suite
 app-text/doxygen 1.12.0-r1: Documentation system for most programming languages
 dev-haskell/double-conversion 2.0.5.0-r1: Fast conversion between single and double precision floating point and text
 dev-haskell/text 2.0.2-r1 2.1.1-r1: An efficient packed Unicode text type
+dev-java/openjdk 11.0.25_p9-r1: Open source implementation of the Java programming language
 dev-libs/newt 0.52.24: Redhat's Newt windowing toolkit development files
 dev-util/electron 30.5.0: Cross platform application development framework based on web technologies
 dev-util/sccache 0.8.1-r1: ccache/distcc like tool with support for rust and cloud storage
