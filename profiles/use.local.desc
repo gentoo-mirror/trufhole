@@ -36,6 +36,12 @@ app-text/doxygen:clang - support for llvm-core/clang assisted parsing
 app-text/doxygen:dot - allow to create dot graphs using media-gfx/graphviz
 app-text/doxygen:doxysearch - build doxyindexer and doxysearch.cgi
 dev-haskell/text:simdutf - use simdutf library
+dev-java/openjdk:headless-awt - Don't install the X backend for AWT, needed by some GUIs
+dev-java/openjdk:javafx - Import OpenJFX modules at build time, via dev-java/openjfx
+dev-java/openjdk:jbootstrap - Build OpenJDK twice, the second time using the result of the first
+dev-java/openjdk:source - Install JVM sources
+dev-java/openjdk:system-bootstrap - Bootstrap using installed openjdk
+dev-java/openjdk:systemtap - Enable SystemTap/DTrace tracing
 dev-util/electron:bluetooth - Enable Bluetooth. Disabling bluetooth does break WebAuthn. Could also break something else. Improved patch is welcome.
 dev-util/electron:clang - Use Clang compiler instead of GCC
 dev-util/electron:debug - Enable DCHECK feature with severity configurable at runtime. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
