@@ -23,4 +23,3 @@ net-proxy/zaproxy 2.14.0 2.15.0: The OWASP Zed Attack Proxy for finding vulnerab
 sys-apps/fw-ectool 0.0.20221203: EC manipulation tool for the Framework Laptop
 sys-devel/dwz 0.15-r5: DWARF optimization and duplicate removal tool
 sys-power/tlp 1.7.0-r2: Optimize laptop battery life
-virtual/kotlin 2.0.10: Virtual for Kotlin compiler
