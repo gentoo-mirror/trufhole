@@ -23,13 +23,7 @@ DEPEND="${RDEPEND}
 GST_PLUGINS_ENABLED="v4l2"
 
 src_prepare() {
-	if use elibc_musl ; then
-		eapply "${FILESDIR}/ignore-ioctl-typing.patch"
-		ewarn "ignore-ioctl-typing.patch is a temporary fix for the issue with typing differences"
-		ewarn "between glibc and musl. It is not stable or portable, and shouldn't be used longterm."
-		ewarn "While it should work fine in this case, it's not the correct way to resolve it"
-	fi
-
+	use elibc_musl && eapply "${FILESDIR}/v4l2-1.24.11-fix-incorrect-function-type.patch"
 	default
 }
 
