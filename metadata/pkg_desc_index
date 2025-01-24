@@ -17,6 +17,7 @@ gui-apps/wob 0.11: Lightweight overlay volume/backlight/progress/anything bar fo
 media-gfx/prusaslicer 2.8.1-r2: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
 media-libs/libv4l 1.28.1 1.28.1-r1: v4l-utils libraries and optional utilities
 media-libs/rnnoise 9999: Recurrent neural network for audio noise reduction
+media-plugins/gst-plugins-v4l2 1.24.11-r1: plugin for gstreamer
 media-sound/helvum 0.4.0: A GTK patchbay for pipewire
 net-libs/nodejs 22.8.0 22.10.0 22.12.0-r2: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-proxy/zaproxy 2.14.0 2.15.0: The OWASP Zed Attack Proxy for finding vulnerabilities in web applications
