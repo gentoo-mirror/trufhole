@@ -6,7 +6,6 @@ app-text/doxygen 1.12.0-r1: Documentation system for most programming languages
 dev-haskell/double-conversion 2.0.5.0-r1: Fast conversion between single and double precision floating point and text
 dev-haskell/text 2.0.2-r1 2.1.1-r1: An efficient packed Unicode text type
 dev-java/openjdk 11.0.25_p9-r2 17.0.13_p11-r1: Open source implementation of the Java programming language
-dev-libs/newt 0.52.24: Redhat's Newt windowing toolkit development files
 dev-python/persepolis 5.0.1: Persepolis Download Manager is a GUI for aria2.
 dev-ruby/language_server-protocol 3.17.0.4: Language Server SDK Gem for Ruby
 dev-ruby/ruby-lsp 0.23.11: An opinionated language server for Ruby
