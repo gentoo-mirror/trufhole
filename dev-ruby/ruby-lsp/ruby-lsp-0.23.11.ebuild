@@ -1,0 +1,21 @@
+# Copyright 2025 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+USE_RUBY="ruby31 ruby32 ruby33 ruby34"
+inherit ruby-fakegem
+
+DESCRIPTION="An opinionated language server for Ruby"
+HOMEPAGE="https://shopify.github.io/ruby-lsp"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="~amd64"
+
+DEPEND+="
+	>=dev-ruby/prism-1.2 <dev-ruby/prism-2
+	>=dev-ruby/rbs-3 <dev-ruby/rbs-4
+	=dev-ruby/language_server-protocol-3.17*
+	>=dev-ruby/sorbet-runtime-0.5.10782
+"
