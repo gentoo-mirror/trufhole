@@ -8,6 +8,7 @@ inherit ruby-fakegem
 
 DESCRIPTION="An opinionated language server for Ruby"
 HOMEPAGE="https://shopify.github.io/ruby-lsp"
+SRC_URI="https://github.com/Shopify/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,3 +20,8 @@ DEPEND+="
 	=dev-ruby/language_server-protocol-3.17*
 	>=dev-ruby/sorbet-runtime-0.5.10782
 "
+
+RUBY_FAKEGEM_GEMSPEC="${PN}.gemspec"
+# 'bin' contains only testing functions
+RUBY_FAKEGEM_BINDIR="exe"
+RUBY_FAKEGEM_EXTRAINSTALL="static_docs VERSION"
