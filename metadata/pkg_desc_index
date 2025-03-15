@@ -7,9 +7,6 @@ dev-haskell/double-conversion 2.0.5.0-r1: Fast conversion between single and dou
 dev-haskell/text 2.0.2-r1 2.1.1-r1: An efficient packed Unicode text type
 dev-java/openjdk 11.0.25_p9-r2 17.0.13_p11-r1: Open source implementation of the Java programming language
 dev-python/persepolis 5.0.1: Persepolis Download Manager is a GUI for aria2.
-dev-ruby/language_server-protocol 3.17.0.4: Language Server SDK Gem for Ruby
-dev-ruby/ruby-lsp 0.23.11: An opinionated language server for Ruby
-dev-ruby/sorbet-runtime 0.5.11882: Sorbet's runtime static type checker component
 dev-util/electron 30.5.0: Cross platform application development framework based on web technologies
 dev-util/sccache 0.8.1-r1: ccache/distcc like tool with support for rust and cloud storage
 gui-apps/shikane 1.0.1: A wayland dynamic output config tool focusing on accuracy and determinism
