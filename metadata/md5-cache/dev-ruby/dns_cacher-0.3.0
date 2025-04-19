@@ -14,4 +14,4 @@ RESTRICT=!test? ( test ) !test? ( test )
 SLOT=0
 SRC_URI=https://github.com/truffle0/dns_cacher/archive/refs/tags/v0.3.0.tar.gz -> dns_cacher-0.3.0.tar.gz
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multilib	b2a329026f2e404e9e371097dda47f96	ruby-utils	cb2cdbbce7fae7a6b2b1021219b0680d	ruby-ng	63f7c7b319d423d92374d431c1837094	ruby-fakegem	92ad9217e94825cb9c8ad831b513a7ec
-_md5_=ed186e7ca67a3ef3ec48232af553dfb5
+_md5_=bbe68741e017047f86edcc13b06f23d5
