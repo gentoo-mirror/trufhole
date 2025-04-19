@@ -5,6 +5,7 @@ EAPI=8
 
 USE_RUBY="ruby31 ruby32 ruby33 ruby34"
 RUBY_FAKEGEM_GEMSPEC="${PN}.gemspec"
+RUBY_BINDIR="bin"
 inherit ruby-fakegem
 
 DESCRIPTION="Lightweight local DNS & mDNS Cache"
