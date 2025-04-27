@@ -9,6 +9,7 @@ dev-java/openjdk 11.0.25_p9-r2 17.0.13_p11-r1: Open source implementation of the
 dev-python/persepolis 5.0.1: Persepolis Download Manager is a GUI for aria2.
 dev-ruby/dns_cacher 0.3.3: Lightweight local DNS & mDNS Cache
 dev-util/electron 30.5.0: Cross platform application development framework based on web technologies
+dev-util/pylyzer 0.0.82: A static code analyzer & language server for Python
 dev-util/sccache 0.8.1-r1: ccache/distcc like tool with support for rust and cloud storage
 gui-apps/shikane 1.0.1: A wayland dynamic output config tool focusing on accuracy and determinism
 gui-apps/tofi 0.9.1: Fast and simple dmenu/rofi replacement for wlroots-based Wayland compositors
