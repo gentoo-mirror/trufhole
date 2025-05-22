@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=EC manipulation tool for the Framework Laptop
+EAPI=8
+HOMEPAGE=https://github.com/DHowett/framework-ec
+KEYWORDS=amd64
+LICENSE=BSD
+SLOT=0
+SRC_URI=https://github.com/DHowett/framework-ec/archive/54c140399bbc3e6a3dce6c9f842727c4128367be.tar.gz -> fw-ectool-0.0.20221203.tar.gz
+_md5_=5a7abd6c095317d767871cd352179aa1
