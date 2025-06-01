@@ -35,7 +35,6 @@ app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang 
 app-text/doxygen:clang - support for llvm-core/clang assisted parsing
 app-text/doxygen:dot - allow to create dot graphs using media-gfx/graphviz
 app-text/doxygen:doxysearch - build doxyindexer and doxysearch.cgi
-dev-haskell/text:simdutf - use simdutf library
 dev-java/openjdk:headless-awt - Don't install the X backend for AWT, needed by some GUIs
 dev-java/openjdk:javafx - Import OpenJFX modules at build time, via dev-java/openjfx
 dev-java/openjdk:jbootstrap - Build OpenJDK twice, the second time using the result of the first
