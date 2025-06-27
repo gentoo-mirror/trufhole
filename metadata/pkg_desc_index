@@ -3,7 +3,7 @@ app-eselect/eselect-electron 0.3: Utility to select the default Electron slot
 app-laptop/framework-laptop-kmod 0_pre20240916: Kernel module to expose more Framework Laptop stuff
 app-office/libreoffice 24.2.7.2-r1: A full office productivity suite
 app-text/doxygen 1.12.0-r1: Documentation system for most programming languages
-dev-java/openjdk 11.0.25_p9-r2 17.0.13_p11-r1: Open source implementation of the Java programming language
+dev-java/openjdk 11.0.25_p9-r2 17.0.13_p11-r1 21.0.7_p6: Open source implementation of the Java programming language
 dev-python/persepolis 5.0.1: Persepolis Download Manager is a GUI for aria2.
 dev-ruby/dns_cacher 0.3.4 0.3.5: Lightweight local DNS & mDNS Cache
 dev-util/electron 30.5.0: Cross platform application development framework based on web technologies
