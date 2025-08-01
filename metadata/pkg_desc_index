@@ -15,7 +15,7 @@ gui-apps/tofi 0.9.1: Fast and simple dmenu/rofi replacement for wlroots-based Wa
 gui-apps/wlogout 1.1.1: A wayland based logout menu
 gui-apps/wlr-randr 0.2.0: xrandr clone for wlroots compositors
 gui-apps/wob 0.11: Lightweight overlay volume/backlight/progress/anything bar for Wayland
-media-gfx/prusaslicer 2.8.1-r2: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
+media-gfx/prusaslicer 2.8.1-r3: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
 media-libs/libv4l 1.28.1 1.28.1-r1: v4l-utils libraries and optional utilities
 media-libs/rnnoise 9999: Recurrent neural network for audio noise reduction
 media-plugins/gst-plugins-v4l2 1.24.11-r1: plugin for gstreamer
