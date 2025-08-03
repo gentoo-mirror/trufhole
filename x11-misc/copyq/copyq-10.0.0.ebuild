@@ -51,7 +51,6 @@ BDEPEND="
 PATCHES=(
 	# used in tests
 	"${FILESDIR}/${PN}-7.1.0-support-plugin-dir-envvar-r1.patch"
-	#
 	"${FILESDIR}/${PN}-10.0.0-qt-6.9.patch"
 )
 
@@ -95,6 +94,10 @@ my_src_test() {
 }
 
 src_test() {
+	ewarn "Many tests are very sensitive to specific timing/behaviour in the QT"
+	ewarn "library. It's not uncommon to have a few edge-case tests fail due to"
+	ewarn "this, and the application will likely still run without issue."
+
 	# local -x QT_QPA_PLATFORM=offscreen # TODO: make it work
 	virtx my_src_test
 }
