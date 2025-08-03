@@ -26,3 +26,4 @@ sys-apps/fw-ectool 0.0.20221203: EC manipulation tool for the Framework Laptop
 sys-devel/dwz 0.15-r5: DWARF optimization and duplicate removal tool
 sys-kernel/ugrd 9999_p1: Python based POSIX initramfs generator with TOML definitions
 sys-power/tlp 1.7.0-r2: Optimize laptop battery life
+x11-misc/copyq 10.0.0: Clipboard manager with advanced features
