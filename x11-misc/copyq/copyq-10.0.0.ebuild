@@ -57,7 +57,7 @@ PATCHES=(
 
 src_configure() {
 	local mycmakeargs=(
-		-DWITH_QT6=OFF
+		-DWITH_QT6=ON
 		-DPLUGIN_INSTALL_PREFIX="${EPREFIX}/usr/$(get_libdir)/${PN}/plugins"
 		-DWITH_NATIVE_NOTIFICATIONS=$(usex notification)
 		-DWITH_TESTS=$(usex test)
