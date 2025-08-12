@@ -87,5 +87,13 @@ gui-apps/wlogout:zsh-completions - Enable Zsh completions for this package
 media-libs/libv4l:bpf - Enable support for IR BPF decoders
 media-libs/libv4l:tracer - Build the v4l2-tracer tool and library
 media-libs/libv4l:utils - Build the v4l-utils collection of utilities
+media-sound/tenacity:id3tag - Enable ID3Tag support for MP3 files
+media-sound/tenacity:lv2 - Enable LV2 plugin hosting support
+media-sound/tenacity:midi - Enable MIDI support
+media-sound/tenacity:mp2 - Enable MP2 codec support
+media-sound/tenacity:sbsms - Enable SBSMS timestretching support
+media-sound/tenacity:soundtouch - Enable SoundTouch timestretching support
+media-sound/tenacity:vamp - Enable VAMP plugin hosting support
+media-sound/tenacity:vst2 - Enable VST2 plugin hosting support
 net-proxy/zaproxy:plugins - Install plugins
 x11-misc/copyq:notification - Build with native notification support (requires kde-frameworks/knotifications:5)
