@@ -84,6 +84,7 @@ gui-apps/wlogout:bash-completions - Enable Bash completions for this package
 gui-apps/wlogout:fish-completions - Enable Fish completions for this package
 gui-apps/wlogout:layershell - Enable layershell support
 gui-apps/wlogout:zsh-completions - Enable Zsh completions for this package
+llvm-core/flang:clang - Force building using installed clang (rather than the default CC/CXX). This is the default since building Flang specifically with GCC requires lots of memory for now.
 media-libs/libv4l:bpf - Enable support for IR BPF decoders
 media-libs/libv4l:tracer - Build the v4l2-tracer tool and library
 media-libs/libv4l:utils - Build the v4l-utils collection of utilities
