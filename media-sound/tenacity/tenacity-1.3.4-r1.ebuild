@@ -101,7 +101,7 @@ src_configure() {
 		-DID3TAG=$(usex id3tag ON OFF)
 		-DMP3_DECODING=$(usex mp3 ON OFF)
 		-DMP2=$(usex mp2 ON OFF)
-		-MATROSKA=$(usex matroska ON OFF)
+		-DMATROSKA=$(usex matroska ON OFF)
 		-DOGG=$(usex ogg ON OFF)
 		-DVORBIS=$(usex vorbis ON OFF)
 		-DFLAC=$(usex flac ON OFF)
