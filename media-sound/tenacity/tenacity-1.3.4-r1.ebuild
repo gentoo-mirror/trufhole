@@ -29,7 +29,6 @@ REQUIRED_USE="
 "
 
 DEPEND="
-	>=dev-build/cmake-3.16
 	sys-libs/zlib
 	dev-libs/expat
 	media-sound/lame
@@ -102,6 +101,7 @@ src_configure() {
 		-DID3TAG=$(usex id3tag ON OFF)
 		-DMP3_DECODING=$(usex mp3 ON OFF)
 		-DMP2=$(usex mp2 ON OFF)
+		-MATROSKA=$(usex matroska ON OFF)
 		-DOGG=$(usex ogg ON OFF)
 		-DVORBIS=$(usex vorbis ON OFF)
 		-DFLAC=$(usex flac ON OFF)
