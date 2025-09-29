@@ -84,9 +84,6 @@ gui-apps/wlogout:bash-completions - Enable Bash completions for this package
 gui-apps/wlogout:fish-completions - Enable Fish completions for this package
 gui-apps/wlogout:layershell - Enable layershell support
 gui-apps/wlogout:zsh-completions - Enable Zsh completions for this package
-media-libs/libv4l:bpf - Enable support for IR BPF decoders
-media-libs/libv4l:tracer - Build the v4l2-tracer tool and library
-media-libs/libv4l:utils - Build the v4l-utils collection of utilities
 media-sound/tenacity:id3tag - Enable ID3Tag support for MP3 files
 media-sound/tenacity:lv2 - Enable LV2 plugin hosting support
 media-sound/tenacity:matroska - Enable MKA/MKV container format support
