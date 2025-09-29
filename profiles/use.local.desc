@@ -2,6 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-containers/crun:bpf - Enable in Kernel, eBPF (enhanced Berkley Packet Filter) support for managing device controllers.
+app-containers/crun:criu - Enable CRIU based checkpoint/restore support
 app-editors/vscode:api-proposals - Enable API proposals !WARNING! Enabling them might be forbidden by Microsoft licensing terms!
 app-editors/vscode:badge-providers - Allow various badge providers
 app-editors/vscode:build-online - Disable network-sandbox and open Pandora's box!
@@ -24,14 +26,6 @@ app-editors/vscode:reh - Build Remote Extension Host
 app-editors/vscode:reh-web - Build Remote Extension Host for Web
 app-editors/vscode:substitute-urls - Even though telemetry is disabled by default in this ebuild, one might want to replace telemetry reporting urls with 0.0.0.0
 app-editors/vscode:temp-fix - Enable this if vscode does not build for you by default, this could help
-app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
-app-office/libreoffice:clang - Use Clang compiler instead of GCC
-app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
-app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
-app-office/libreoffice:mariadb - Prefer mariadb connector over mysql connector
-app-office/libreoffice:odk - Build the Office Development Kit
-app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
-app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
 app-text/doxygen:clang - support for llvm-core/clang assisted parsing
 app-text/doxygen:dot - allow to create dot graphs using media-gfx/graphviz
 app-text/doxygen:doxysearch - build doxyindexer and doxysearch.cgi
